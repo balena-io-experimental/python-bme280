@@ -6,8 +6,8 @@ The sensor BME280 is a low-cost environmental sensor that senses temperature, hu
 
 ### Getting started
 
-* Raspberry Pi 3, 4 or balenaFin.
-* BME280 sensor
+* Raspberry Pi 3, 4 or [balenaFin](https://www.balena.io/fin/).
+* BME280 sensor [example](https://es.aliexpress.com/item/1005001621866431.html)
 
 * A balenaCloud account ([sign up here](https://dashboard.balena-cloud.com/))
 * [balenaEtcher](https://balena.io/etcher)
@@ -42,6 +42,6 @@ If you are a balena CLI expert, feel free to use balena CLI.
 
 ### Attribution
 
-- This is a code made by David Tischler from balena during the IoT Happy Hour.
+- This is a code made by David Tischler from balena during the IoT Happy Hour using this code from pypi [https://pypi.org/project/RPi.bme280/](https://pypi.org/project/RPi.bme280/)
 - This code has been presented at the PyDay Barcelona 2020.
 
