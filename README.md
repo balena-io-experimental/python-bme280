@@ -18,7 +18,7 @@ Once all of this is ready, you are able to deploy this repository following inst
 
 To connect the BME280 with the Raspberry Pi follow this diagram connections below:
 
-
+![alt text](https://github.com/balena-io-playground/python-bme280/blob/main/bme280-raspberrypi4.png)
 
 ### Deploy the code
 
