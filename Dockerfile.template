@@ -1,0 +1,10 @@
+FROM balenalib/%%BALENA_MACHINE_NAME%%-python:latest
+
+WORKDIR /usr/src/app
+
+RUN pip install RPi.bme280
+
+COPY . . 
+
+CMD while : ; do python bme280-project.py; sleep ${INTERVAL=20}; done
+
